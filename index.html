@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator - JavaScript</title>
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2>Body Weight Index(BMI) Calculator</h2>
+      <div class="input-box">
+        <span>Your Height (cm):</span>
+        <input type="number" value="180" class="height" />
+      </div>
+      <div class="input-box">
+        <span>Your Weight (kg):</span>
+        <input type="number" value="80" class="weight" />
+      </div>
+      <button class="btn">Compute BMI</button>
+      <div class="input-box">
+        <input type="text" disabled class="result" />
+        <p>Condition : <span class="cond"></span></p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
